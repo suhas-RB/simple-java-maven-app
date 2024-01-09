@@ -69,7 +69,7 @@ pipeline {
 		        nexusUrl: '3.222.188.140:8081',
 		        groupId: 'QA1',
 		        version: "${env.BUILD_ID}-${env.BUILD_TIMESTAMP}",
-		        repository: 'TestQA3',
+		        repository: 'TestQA2',
 		        credentialsId: 'NexusLogin',
 		        artifacts: [
 		            [artifactId: 'vproapp',
